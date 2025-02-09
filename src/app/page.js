@@ -34,7 +34,7 @@ const Homepage = () => {
       <TaskForm fetchTasks={fetchTasks} />
       <div className='w-full'>
         <h1 className='text-center text-3xl font-semibold mb-10'>List of the tasks</h1>
-        <TaskList tasks={tasks} />
+        <TaskList tasks={tasks} fetchTasks={fetchTasks} />
       </div>
     </div>
   )
